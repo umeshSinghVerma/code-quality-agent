@@ -2,6 +2,12 @@
 
 AI-powered, developer-friendly code quality analysis with actionable insights, interactive Q\&A, and a lightweight web UI. Powered by Google Gemini.
 
+<img width="2757" height="1880" alt="Screenshot 2025-09-14 232134" src="https://github.com/user-attachments/assets/5e471d7a-4d53-4872-8caa-44b87b9099b3" />
+
+## Demo Video
+
+[Click to watch Demo Video](https://youtu.be/_M8c_5_OdM8)
+
 ---
 
 ## ✨ What it does (Current Capabilities)
@@ -91,6 +97,7 @@ node dist/cli.js quick /path/to/code
 # Show environment/config info
 node dist/cli.js config
 ```
+<img width="2809" height="1836" alt="Screenshot 2025-09-14 231933" src="https://github.com/user-attachments/assets/44359555-af3d-41f9-a2a3-a3964b61b2c2" />
 
 ---
 
@@ -100,6 +107,10 @@ node dist/cli.js config
 # Start the web server
 npm run web
 ```
+<img width="2638" height="1715" alt="Screenshot 2025-09-14 232035" src="https://github.com/user-attachments/assets/42f5a6aa-05bd-4b5a-9b47-455db312fcac" />
+
+<img width="2550" height="1902" alt="Screenshot 2025-09-14 232114" src="https://github.com/user-attachments/assets/32580334-a74a-4207-99f6-59aa898a0287" />
+
 
 Open the UI:
 👉 [http://localhost:3000](http://localhost:3000)
