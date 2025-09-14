@@ -1,0 +1,65 @@
+{
+  "name": "code-quality-intelligence-agent",
+  "version": "1.0.0",
+  "description": "AI-powered Code Quality Intelligence Agent using Gemini API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "analyze": "tsx src/cli.ts analyze",
+    "web": "tsx src/web-server.tsx"
+  },
+  "bin": {
+    "codeql": "./dist/cli.js"
+  },
+  "keywords": [
+    "code-quality",
+    "ai",
+    "analysis",
+    "gemini"
+  ],
+  "author": "Code Quality Agent",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "inquirer": "^10.0.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "marked": "^12.0.0",
+    "highlight.js": "^11.9.0",
+    "glob": "^10.3.10",
+    "mime-types": "^2.1.35",
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "next": "15.5.3",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.544.0",
+    "tailwind-merge": "3.3.1",
+    "tailwindcss-animate": "1.0.7",
+    "os": "0.1.2",
+    "url": "0.11.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/multer": "^1.4.11",
+    "@types/mime-types": "^2.1.4",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "tailwindcss": "^4.1.9",
+    "postcss": "8.5.6"
+  }
+}
